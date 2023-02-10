@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+  <loop>true</loop>
+  <repeat_times>1</repeat_times>
+  <repeat_period>500</repeat_period>
+  <frames_list>
+    <frame name="Enviar mensaje al router">
+      <payload>
+          7E003310010013A200415135C7FFFE0000486520726563696269646F20756E206D656E73616A652064656C20636F6F64696E61646F7203
+      </payload>
+    </frame>
+    <frame name="ZB_TX_STATUS_RESPONSE">
+      <payload>7E00078B01000000000073</payload>
+    </frame>
+    <frame name="Mandar mensaje al coordinador">
+      <payload>
+        7E002F10010013A20041513615FFFE0000486520726563696269646F20756E206D656E73616A652064656C20726F7574657235
+      </payload>
+    </frame>
+    <frame name="Dormir coordinador">
+      <payload>7E001810010013A20041513615FFFE0000434D443A415041474152A5</payload>
+    </frame>
+    <frame name="Abrir cerradura">
+      <payload>7E001710010013A20041513615FFFE0000434D443A4142524952E1</payload>
+    </frame>
+    <frame name="Cerrar cerradura">
+      <payload>7E001810010013A20041513615FFFE0000434D443A43455252415292</payload>
+    </frame>
+    <frame name="ECHO">
+      <payload>7E001610010013A20041513615FFFE0000434D443A4543484F32</payload>
+    </frame>
+    <frame name="DEBUG - Dormir coordinador">
+      <payload>7E001810010013A200415135C7FFFE0000434D443A415041474152F4</payload>
+    </frame>
+    <frame name="DEBUG - Abrir cerradura">
+      <payload>7E001710010013A200415135C7FFFE0000434D443A414252495230</payload>
+    </frame>
+    <frame name="DEBUG - Cerrar cerradura">
+      <payload>7E001810010013A200415135C7FFFE0000434D443A434552524152E1</payload>
+    </frame>
+    <frame name="DEBUG - ECHO">
+      <payload>7E001610010013A200415135C7FFFE0000434D443A4543484F81</payload>
+    </frame>
+    <frame name="DEBUG - Mandar mensaje al coordinador">
+      <payload>
+        7E002F10010013A200415135C7FFFE0000486520726563696269646F20756E206D656E73616A652064656C20726F7574657284
+      </payload>
+    </frame>
+  </frames_list>
+</data>
